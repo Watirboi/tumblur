@@ -1,0 +1,25 @@
+version: '2'
+
+services:
+  db:
+    image: postgres:9.4
+    ports:
+      - "5432"
+
+  mailcatcher:
+    image: schickling/mailcatcher
+    ports:
+      - "1080:1080"
+      - "1025:1025"
+
+  app:
+    build: .
+    command: ./script/start.sh
+    volumes:
+      - .:/app
+      - bundle:/bundle
+    ports:
+      - "3000:3000"
+
+volumes:
+  bundle: {}
