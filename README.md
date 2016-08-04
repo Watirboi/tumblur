@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -26,3 +27,6 @@ Things you may want to cover:
 =======
 # tumblr
 >>>>>>> 9a5d24e915921fdae92394faeadb82f8829147be
+=======
+# tumblur
+>>>>>>> 71e7a8f7f7fff9692f83e92ec53d269a32f10d0e
